@@ -33,3 +33,14 @@ Difference (\): A\B is the set of elements that belong to A but not B.
 
 Difference (∆): A∆B is the set of elements that are either in set A or
 in set B but not in both
+
+### Formal Languages
+In theoretical computer science, we use ***formal languages*** to describe sets of strings.
+
+A formal language is defined over an alphabet.
+
+Examples:
+ - L = {0, 1} is the language containing only the strings "0" and "1".
+ - L = {a, b, c}∗ is the language containing all possible strings formed from
+the alphabet {a, b, c}.
+
