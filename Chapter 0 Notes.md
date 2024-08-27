@@ -117,11 +117,11 @@ not.
 vertex
 
 ![image](https://github.com/user-attachments/assets/876af5bf-2467-4648-b562-7f052cc25b53)
+
 An example of an undirected graph with three vertices (A, B, C) and three
 edges.
 
 Some types of graphs include:
-
 - Directed Graph: Edges have a specific direction.
 - Undirected Graph: Edges have no specific direction.
 - Weighted Graph: Edges have associated weights.
