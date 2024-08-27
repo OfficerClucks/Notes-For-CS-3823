@@ -57,3 +57,25 @@ membership in the language.
 
 - **Undecidable languages**: No algorithm can determine membership in
 the language.
+
+## Symbols and Notations
+Mathematical symbols are used to represent operations, relations, and
+variables.
+
+Example notations:
+- ∀: for all
+- ∃: there exists
+- ∃!: there exists a unique ...
+- ⇒: implies
+- ∈: is an element of
+
+Logical operators are used to connect and manipulate statements.
+Common logical operators:
+
+- ¬: negation (not)
+- ∧: conjunction (and)
+- ∨: disjunction (or)
+- ⇒: implication
+- ⇔: equivalence
+
+
