@@ -78,4 +78,42 @@ Common logical operators:
 - ⇒: implication
 - ⇔: equivalence
 
+Common quantifiers:
+- ∀: universal quantifier (for all)
+- ∃: existential quantifier (there exists)
+
+## Principle of Mathematical Induction
+
+The principle of mathematical induction is a proof technique used to
+establish statements for all natural numbers.
+
+If we can show that:
+- Base case: The statement is true for a specific value, typically 0 or 1.
+- Inductive step: If the statement is true for n, then it is also true for n + 1.
+
+Then the statement is true for all natural numbers.
+
+**Structural induction** is a proof technique used to establish statements for
+recursively defined structures.
+
+To prove a statement P(x) holds for all elements x in a recursively defined
+structure:
+
+- Base cases: Show that P(x) holds for the base cases of the recursion.
+- Inductive steps: Assume P(x) holds for all immediate substructures and show it holds for the larger structure.
+
+## Graphs and Trees
+
+A **graph** is a collection of vertices and edges.
+
+**Vertices** represent entities, and edges represent relationships between
+entities.
+
+Properties of graphs:
+- Directed/Undirected: Whether edges have a specific direction or not.
+- Weighted/Unweighted: Whether edges have associated weights or
+not.
+- Connectedness: Whether every vertex is reachable from every other
+vertex
+![image](https://github.com/user-attachments/assets/876af5bf-2467-4648-b562-7f052cc25b53)
 
