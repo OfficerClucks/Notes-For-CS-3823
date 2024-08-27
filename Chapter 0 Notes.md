@@ -21,3 +21,15 @@ Infinite sets: Sets with **infinite** elements;
 - e.g., N = {1, 2, 3, . . .}, Z = {. . . , −2, −1, 0, 1, 2, . . .}
 
 Empty set: ∅
+
+## Operations on Sets
+Union (∪): A ∪ B is the set of elements in either A or B (or both).
+
+Intersection (∩): A ∩ B is the set of elements in both A and B.
+
+Complement (A): A is the set of elements not in A.
+
+Difference (\): A\B is the set of elements that belong to A but not B.
+
+Difference (∆): A∆B is the set of elements that are either in set A or
+in set B but not in both
