@@ -115,5 +115,6 @@ Properties of graphs:
 not.
 - Connectedness: Whether every vertex is reachable from every other
 vertex
+
 ![image](https://github.com/user-attachments/assets/876af5bf-2467-4648-b562-7f052cc25b53)
 
