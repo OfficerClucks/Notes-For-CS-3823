@@ -44,3 +44,16 @@ Examples:
  - L = {a, b, c}∗ is the language containing all possible strings formed from
 the alphabet {a, b, c}.
 
+Formal languages can have different properties, such as:
+
+- **Regular languages**: Can be recognized by finite automata or regular
+expressions.
+
+- **Context-free languages**: Can be recognized by pushdown automata
+or context-free grammars.
+
+- **Decidable languages**: Have an algorithm that can determine
+membership in the language.
+
+- **Undecidable languages**: No algorithm can determine membership in
+the language.
