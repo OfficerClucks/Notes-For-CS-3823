@@ -129,6 +129,11 @@ Some types of graphs include:
 same vertex).
 - Acyclic Graph: Does not contain any cycles.
 
-
+**Degree** of a node: The number of edges that are adjacent to this node
+No more than one edge is allowed between any two nodes.
+Notation: G = (V , E),
+e.g., G = ({1, 2, 3, 4, 5}, {(1, 2), (2, 3), (3, 4), (4, 5), (5, 1)})
+G subgraph of H: The nodes of G are a subset of the nodes of H, and
+the edges of G are the edges of H on the corresponding nodes.
 
 
