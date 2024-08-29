@@ -8,3 +8,21 @@ Simplest computational model:
 (e.g., automatic door).
 - Markov chains are probabilistic counterparts of finite automata.
 
+Finite Automaton Example (M1):
+
+![image](https://github.com/user-attachments/assets/ff6c8063-e03e-43a1-b1e1-628739eb32db)
+
+M1 recognizes strings that:
+- have at least one 1,
+- end in a 1,
+- end in an even number of zeros, following the last 1 (i.e., there is at least one 1)
+
+**Finite automaton**
+A **finite automaton** is a 5-tuple (Q, Σ, δ, q0, F ), where:
+- Q is a finite set called the states,
+- Σ is a finite set called the (input) alphabet,
+- δ : Q × Σ → Q is the transition function (it includes the rules for
+moving),
+- q0 ∈ Q is the start state, and
+- F ⊆ Q is the set of accept states (final states).
+
