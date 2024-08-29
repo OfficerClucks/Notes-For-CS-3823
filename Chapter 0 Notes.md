@@ -136,4 +136,13 @@ e.g., G = ({1, 2, 3, 4, 5}, {(1, 2), (2, 3), (3, 4), (4, 5), (5, 1)})
 G subgraph of H: The nodes of G are a subset of the nodes of H, and
 the edges of G are the edges of H on the corresponding nodes.
 
+A **tree** is a connected acyclic graph.
+Properties of trees:
+- **Root**: A designated vertex as the root of the tree.
+- **Parent/Child**: Relationships between vertices based on their
+connections.
+- **Leaf**: A vertex with no children.
+- **Height** : The length of the longest path from the root to any leaf.
+
+![image](https://github.com/user-attachments/assets/2ea3d727-7764-4b9c-8867-caae4e6577e0)
 
