@@ -146,3 +146,14 @@ connections.
 
 ![image](https://github.com/user-attachments/assets/2ea3d727-7764-4b9c-8867-caae4e6577e0)
 
+- **Traversal Algorithms**: Visit every vertex in a graph.
+- **Shortest Path Algorithms**: Find the shortest path between two
+vertices.
+
+Examples of traversal algorithms:
+- Depth-First Search (DFS)
+- Breadth-First Search (BFS)
+
+Examples of shortest path algorithms:
+- Dijkstra’s Algorithm
+- Bellman-Ford Algorithm
