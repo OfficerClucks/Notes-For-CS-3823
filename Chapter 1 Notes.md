@@ -19,10 +19,10 @@ M1 recognizes strings that:
 
 **Finite automaton**
 A **finite automaton** is a 5-tuple (Q, Σ, δ, q0, F ), where:
-- Q is a finite set called the states,
-- Σ is a finite set called the (input) alphabet,
-- δ : Q × Σ → Q is the transition function (it includes the rules for
+- Q is a finite set called the **states**,
+- Σ is a finite set called the (input) **alphabet**,
+- δ : Q × Σ → Q is the **transition function** (it includes the rules for
 moving),
-- q0 ∈ Q is the start state, and
-- F ⊆ Q is the set of accept states (final states).
+- q0 ∈ Q is the **start state**, and
+- F ⊆ Q is the **set of accept states** (final states).
 
