@@ -30,3 +30,16 @@ moving),
 A **Language** of machine M is the set of strings that M accepts.
 - Notation: L(M) = A
   - We say that M recognizes A or that M accepts A
+
+A language is called a **regular language** if some finite automaton
+recognizes it.
+
+### Regular Operations 
+
+Let A and B be languages. We define the regular operations **union**,
+**concatenation**, and **star** as follows:
+- Union: A ∪ B = {x|x ∈ A or x ∈ B}.
+- Concatenation: A ◦ B = {xy|x ∈ A and y ∈ B}.
+- Star: A∗ = {x1x2 . . . xk |k ≥ 0 and each xi ∈ A}.
+
+Remark: The empty string λ is always a member of A∗, no matter what A is.
