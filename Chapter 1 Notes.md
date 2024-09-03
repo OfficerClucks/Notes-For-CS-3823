@@ -54,8 +54,12 @@ regular operations.
 Example 6 (Closeness)
 
 Let the alphabet Σ be the standard 26 letters {a, b, . . . , z}.
+
 If A = {good, bad} and B = {boy, girl}, then
+
 A ∪ B = {good, bad, boy, girl},
-A ◦ B = {goodboy, goodgirl, badboy, badgirl}, and
+
+A ◦ B = {goodboy, goodgirl, badboy, badgirl}, 
+
 A∗ = {λ, good, bad, goodgood, goodbad, badgood, badbad,
 goodgoodgood, goodgoodbad, goodbadgood, goodbadbad, . . . }
