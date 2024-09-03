@@ -27,3 +27,6 @@ moving),
 - q0 ∈ Q is the **start state**, and
 - F ⊆ Q is the **set of accept states** (final states).
 
+A **Language** of machine M is the set of strings that M accepts.
+- Notation: L(M) = A
+  - We say that M recognizes A or that M accepts A
