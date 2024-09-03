@@ -63,3 +63,4 @@ A ◦ B = {goodboy, goodgirl, badboy, badgirl},
 
 A∗ = {λ, good, bad, goodgood, goodbad, badgood, badbad,
 goodgoodgood, goodgoodbad, goodbadgood, goodbadbad, . . . }
+
