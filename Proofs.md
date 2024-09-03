@@ -28,3 +28,13 @@ Q1 × Q2.
 3. δ((r1, r2), a) = (δ1(r1, a), δ2(r2, a)).
 4. q0 = (q1, q2).
 5. F = {(r1, r2)|r1 ∈ F1 or r2 ∈ F2}.
+
+Remarks on the proof:
+The last expression, F = {(r1, r2)|r1 ∈ F1 or r2 ∈ F2}, is the same as
+F = (F1 × Q2) ∪ (Q1 × F2), which is not the same as F = F1 × F2
+obviously.
+
+F = F1 × F2 proves closure for intersection
+
+
+![image](https://github.com/user-attachments/assets/7c027440-53ee-44bb-80ca-d0cb81b195e2)
