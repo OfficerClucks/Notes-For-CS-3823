@@ -43,3 +43,19 @@ Let A and B be languages. We define the regular operations **union**,
 - Star: A∗ = {x1x2 . . . xk |k ≥ 0 and each xi ∈ A}.
 
 Remark: The empty string λ is always a member of A∗, no matter what A is.
+
+A collection of objects is **closed** under some operation if applying that
+operation to members of the collection returns an object still in the
+collection.
+
+The collection of regular languages is closed under all three of the
+regular operations.
+
+Example 6 (Closeness)
+
+Let the alphabet Σ be the standard 26 letters {a, b, . . . , z}.
+If A = {good, bad} and B = {boy, girl}, then
+A ∪ B = {good, bad, boy, girl},
+A ◦ B = {goodboy, goodgirl, badboy, badgirl}, and
+A∗ = {λ, good, bad, goodgood, goodbad, badgood, badbad,
+goodgoodgood, goodgoodbad, goodbadgood, goodbadbad, . . . }
