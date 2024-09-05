@@ -94,3 +94,8 @@ the input, the NFA accepts the input string.
 States with an λ symbol on an exiting arrow is encountered
 ⇒ splits into multiple copies.
 
+Here is a tree showing the difference between dfa and nfa 
+
+![image](https://github.com/user-attachments/assets/864187e1-870b-4d24-9a0a-d37a2b53f272)
+
+
