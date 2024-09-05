@@ -71,4 +71,6 @@ alphabet symbol,
 - may have zero, one, or many arrows exiting from each state with the
 label λ
 
+- NFA's Dont have to have all of the fail states like the DFA's do 
+
 ![image](https://github.com/user-attachments/assets/505efe88-bc59-41df-b474-a7888661131e)
