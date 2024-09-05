@@ -64,3 +64,11 @@ A ◦ B = {goodboy, goodgirl, badboy, badgirl},
 A∗ = {λ, good, bad, goodgood, goodbad, badgood, badbad,
 goodgoodgood, goodgoodbad, goodbadgood, goodbadbad, . . . }
 
+NFAs:
+- may have zero, one, or many arrows exiting from each state for each
+alphabet symbol,
+
+- may have zero, one, or many arrows exiting from each state with the
+label λ
+
+![image](https://github.com/user-attachments/assets/505efe88-bc59-41df-b474-a7888661131e)
