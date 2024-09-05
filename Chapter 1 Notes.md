@@ -64,6 +64,8 @@ A ◦ B = {goodboy, goodgirl, badboy, badgirl},
 A∗ = {λ, good, bad, goodgood, goodbad, badgood, badbad,
 goodgoodgood, goodgoodbad, goodbadgood, goodbadbad, . . . }
 
+---
+
 NFAs:
 - may have zero, one, or many arrows exiting from each state for each
 alphabet symbol,
@@ -74,3 +76,21 @@ label λ
 - NFA's Dont have to have all of the fail states like the DFA's do 
 
 ![image](https://github.com/user-attachments/assets/505efe88-bc59-41df-b474-a7888661131e)
+
+NFA's Work in this order:
+
+- We reach a state with multiple ways to proceed.
+⇒ the machine (automaton) splits into multiple copies of itself and
+follows all the possibilities in parallel (each copy takes one of the
+possible ways to proceed).
+
+- We reach a state where no branch of the computation exiting from it
+can compute the current symbol
+⇒ the particular copy of the machine dies (along with the branch of
+the computation associated with it.
+
+- If any of the copies of the machine is in an accept state at the end of
+the input, the NFA accepts the input string.
+States with an λ symbol on an exiting arrow is encountered
+⇒ splits into multiple copies.
+
