@@ -116,3 +116,7 @@ Look to the slides for more examples but here are two that I found the most help
 ![image](https://github.com/user-attachments/assets/fdf78b39-7072-4225-b414-51b1e24847f6)
 
 ![image](https://github.com/user-attachments/assets/31ec5a97-55ab-4096-9f92-1c6473743ac8)
+
+---
+
+When you are combining two or more NFA's  accepting states you remove the first NFA's accepting states and do a lambda transition to the starting state of the accepting state.
