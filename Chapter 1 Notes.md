@@ -120,3 +120,21 @@ Look to the slides for more examples but here are two that I found the most help
 ---
 
 When you are combining two or more NFA's  accepting states you remove the first NFA's accepting states and do a lambda transition to the starting state of the accepting state.
+
+---
+
+Definition
+
+A **Generalized Nondeterministic Finite Automaton (GNFA)** is an NFA
+wherein the transition arrows may have any regular expression as labels
+(instead of only members of the alphabet or λ).
+
+- The GNFA reads blocks of symbols from the input, not necessarily just
+one symbol at a time (as in an ordinary NFA).
+
+- The GNFA moves along a transition arrow connecting two states by
+reading a block of symbols from the input; that string is a string that
+corresponds to the regular expression on that arrow.
+
+- A GNFA, being nondeterministic, may have several different ways to
+process the same input string
