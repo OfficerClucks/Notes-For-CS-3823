@@ -77,6 +77,17 @@ label λ
 
 ![image](https://github.com/user-attachments/assets/505efe88-bc59-41df-b474-a7888661131e)
 
+A **nondeterministic finite automaton** is a 5-tuple (Q, Σ, δ, q0, F ), where
+ - Q is a finite set of states,
+- Σ is a finite alphabet,
+- δ : Q × Σλ → P(Q) is the transition function,
+- q0 ∈ Q is the start state, and
+- F ⊆ Q is the set of accept states.
+Note:
+Σλ = Σ ∪ {λ}
+
+P(Q) = powerset of Q
+
 NFA's Work in this order:
 
 - We reach a state with multiple ways to proceed.
