@@ -99,3 +99,6 @@ Here is a tree showing the difference between dfa and nfa
 ![image](https://github.com/user-attachments/assets/864187e1-870b-4d24-9a0a-d37a2b53f272)
 
 
+![image](https://github.com/user-attachments/assets/fdf78b39-7072-4225-b414-51b1e24847f6)
+
+![image](https://github.com/user-attachments/assets/31ec5a97-55ab-4096-9f92-1c6473743ac8)
